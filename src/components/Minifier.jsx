@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import beautify from "js-beautify";
 
-const TextDiffChecker = () => {
+const Minifier = () => {
   const [minifiedCss, setMinifiedCss] = useState("");
   // const [unminifiedCss, setUnminifiedCss] = useState("");
 
@@ -40,4 +40,4 @@ const TextDiffChecker = () => {
   );
 };
 
-export default TextDiffChecker;
+export default Minifier;
