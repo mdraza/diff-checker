@@ -19,7 +19,7 @@ const DarkModeToggle = () => {
   return (
     <div className="text-white">
       <button
-        className="w-[48px] h-[48px] rounded-[50%] flex items-center justify-center hover:bg-[#551bb3] transition-all dark:hover:bg-[#2b2b2b]"
+        className="w-[48px] h-[48px] rounded-[50%] flex items-center justify-center hover:bg-[#000] transition-all dark:hover:bg-[#2b2b2b]"
         onClick={handleThemeSwitch}
       >
         {theme === "dark" ? (

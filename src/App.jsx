@@ -4,7 +4,7 @@ import TextDiffChecker from "./components/TextDiffChecker";
 
 function App() {
   return (
-    <div className="bg-[#f0ebf9] dark:bg-[#121212]">
+    <div className="bg-[#f7f2ff] dark:bg-[#121212]">
       <Header />
       <TextDiffChecker />
       <Footer />
